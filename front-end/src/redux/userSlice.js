@@ -5,7 +5,7 @@ import Swal from "sweetalert2";
 
 const userSlice = createSlice({
     name:'user',
-    initialState:{email:"khaled@mail.com" , password:"123" , isLogged:false},
+    initialState:{email:"qutaibah@gmail.com" , password:"klkl1995" , isLogged:false},
     reducers:{
         login:(state , action)=>{
             if(action.payload.email === state.email &&action.payload.password == state.password){

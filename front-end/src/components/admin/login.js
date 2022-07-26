@@ -38,7 +38,7 @@ const Login =()=>{
     return(
         <div className="login-dark">
         <form onSubmit={handleSubmit}>
-            <h2 className="sr-only">Login Form</h2>
+            <h2 className="sr-only">Login</h2>
             <div className="illustration"><i className="icon ion-ios-locked-outline"></i></div>
 
             <div className="form-group">

@@ -15,7 +15,7 @@ const Navbar = ()=>{
 
         <nav className="navbar navbar-expand-lg navbar-dark bg-secondary" >
             <div className="container-fluid">
-                <NavLink className="navbar-brand" to="/">PROSTORE</NavLink>
+                <NavLink className="navbar-brand" to="/main">PROSTORE</NavLink>
                 <button className="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i className="fas fa-bars"></i>
                 </button>
@@ -26,7 +26,7 @@ const Navbar = ()=>{
                     </li>
                     {status && (
                     <li className="nav-item">
-                        <NavLink className="nav-link" to="/main">Items</NavLink>
+                        <NavLink className="nav-link" to="/main">Add products</NavLink>
                     </li>
     
                     )}

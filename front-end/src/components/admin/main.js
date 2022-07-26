@@ -15,7 +15,7 @@ const Main = ()=>{
         <td className="p-3 text-center align-middle">{item.name}</td>
         <td className="p-3 text-center align-middle">{item.description}</td>
         <td className="p-3 text-center align-middle">
-            <Link to={`/update/${item.id}`}  className="btn btn-primary mx-2">Update</Link>
+            <Link to={`/update/${item.id}`}  className="btn btn-warning mx-2">Update</Link>
             <Link onClick={()=>{
                 dispatch(deleteItem(item.id))
                 navigate('/main' , {replace:true})

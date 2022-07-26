@@ -1,6 +1,6 @@
 .login-dark {
-    height:1000px;
-    background:#475d62 url(sky.jpg);
+    height:700px;
+    background: url('https://unsplash.com/photos/qnKhZJPKFD8');
     background-size:cover;
     position:relative;
   }
@@ -8,7 +8,7 @@
   .login-dark form {
     max-width:320px;
     width:90%;
-    background-color:#1e2833;
+    background-color:#26365efd;
     padding:40px;
     border-radius:4px;
     transform:translate(-50%, -50%);
